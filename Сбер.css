@@ -1,0 +1,542 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "SB Sans Display";
+    background: white;
+    overflow-x: hidden;
+}
+.header{
+    position: relative;
+    background-color: white;
+}
+.header img{
+    margin-left: 57px;
+    margin-top: 25px;
+}
+.menu{
+    margin-left: 750px;
+    position: relative;
+    margin-top: -20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #979797;
+    font-size: 15px;
+    padding: 20px;
+}
+.header hr{
+    width: 100%;
+    color: #979797;
+    opacity: 0.3;
+    margin-top: 20px;
+    position: relative;
+}
+.list p{
+    color: #979797;
+    margin-left: 1730px;
+    font-size: 15px;
+    margin-top: -17px;
+}
+.list img{
+    position: absolute;
+    margin-left: 1815px;
+    margin-top: -10px;
+}
+.listv{
+    width: 130px;
+    height: 110px;
+    position: absolute;
+    background: white;
+    margin-left: 1700px;
+    margin-top: 10px;
+    box-shadow: 2px 14px 25px #e4e4e4;
+    z-index: 100;
+    color: #979797;
+    font-size: 15px;
+}
+.listv p{
+    margin-top: 10px;
+    margin-left: 19px;
+}
+.listv p1{
+    margin-top: 10px;
+    margin-left: 19px;
+}
+.listv p2{
+    margin-top: 10px;
+    margin-left: 19px;
+}
+.menu2 p{
+    position: absolute;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #333F48;
+    font-weight: lighter;
+}
+.menu2 hr{
+    width: 100%;
+    color: #979797;
+    opacity: 0.3;
+    margin-top: 160px;
+    position: absolute;
+}
+.menu2 p1{
+    font-size: 15px;
+    margin-top: 135px;
+    margin-left: 50px;
+    position: absolute;
+}
+.menu2 p2{
+    font-size: 15px;
+    margin-top: 135px;
+    margin-left: 180px;
+    position: absolute;
+    color: #979797;
+}
+.choice hr{
+    width: 87px;
+    background: #21A038;
+    margin-left: 42px;
+    margin-top: 159px;
+    size: 3px;
+    border: 1.6px solid #21A038;
+    opacity: 0.7;
+}
+.order{
+    width: 1000px;
+    height: 830px;
+    border: 1px solid #dadada;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.about_order{
+    width: 1000px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #FAF9F9;
+}
+.paid{
+    background-color: #09A552;
+    width: 130px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+    border-radius: 4px;
+    opacity: 0.9;
+    position: absolute;
+}
+.paid p{
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.about_order p1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-left: 60px;
+    position: absolute;
+}
+.about_order p2{
+    font-size: 15px;
+    color: #979797;
+    margin-top: 70px;
+    margin-left: 60px;
+    position: absolute;
+}
+.about_order p3{
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 650px;
+    position: absolute;
+    font-weight: bold;
+}
+.about_order p4{
+    font-size: 15px;
+    margin-left: 650px;
+    position: absolute;
+}
+.about_order p5{
+    font-size: 15px;
+    margin-left: 650px;
+    position: absolute;
+}
+.SberPortal img{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.SberPortal p{
+    margin-top: -140px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333F48;
+    position: absolute;
+}
+.SberPortal p1{
+    margin-top: -110px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333F48;
+}
+.SberPortal p2{
+    margin-top: -95px;
+    margin-left: 290px;
+    font-size: 20px;
+    color: #979797;
+}
+.Мобильные_джойстики img{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.Мобильные_джойстики p{
+    margin-top: -140px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333F48;
+    position: absolute;
+}
+.Мобильные_джойстики p1{
+    margin-top: -110px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333F48;
+}
+.Мобильные_джойстики p2{
+    margin-top: -95px;
+    margin-left: 290px;
+    font-size: 20px;
+    color: #979797;
+}
+.SberBox_Prime img{
+    margin-top: -385px;
+    margin-left: 600px;
+    position: absolute;
+}
+.SberBox_Prime p{
+    margin-top: -340px;
+    margin-left: 790px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333F48;
+    position: absolute;
+}
+.SberBox_Prime p1{
+    margin-top: -330px;
+    margin-left: 790px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333F48;
+}
+.SberBox img{
+    margin-top: -200px;
+    margin-left: 600px;
+    position: absolute;
+}
+.SberBox p{
+    margin-top: -190px;
+    margin-left: 790px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333F48;
+    position: absolute;
+}
+.SberBox p1{
+    margin-top: -180px;
+    margin-left: 790px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333F48;
+}
+.SberBox p2{
+    margin-top: -170px;
+    margin-left: 790px;
+    font-size: 20px;
+    color: #979797;
+}
+.about_order hr{
+    color: #979797;
+    opacity: 0.3;
+    width: 95%;
+    margin-top: -30px;
+}
+.details p{
+    margin-top: -34px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 18px;
+}
+.details hr{
+    color: #979797;
+    opacity: 0.3;
+    width: 95%;
+    margin-top: 50px;
+}
+.details img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 900px;
+}
+.details p3{
+    margin-top: 24px;
+    margin-left: 70px;
+    position: absolute;
+    font-size: 18px;
+}
+.details p4{
+    margin-top: 34px;
+    margin-left: 70px;
+    position: absolute;
+    font-size: 18px;
+}
+.details p5{
+    margin-top: 5px;
+    margin-left: 600px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;;
+}
+.details p6{
+    margin-top: 38px;
+    margin-left: 600px;
+    position: absolute;
+    font-size: 18px;
+}
+.details p7{
+    margin-top: 38px;
+    margin-left: 800px;
+    position: absolute;
+    font-size: 18px;
+}
+.details p8{
+    margin-top: 115px;
+    margin-left: 800px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;;
+}
+.details p9{
+    margin-top: 150px;
+    margin-left: 600px;
+    position: absolute;
+    font-size: 18px;
+    color: #006EFF;
+    font-weight: bold;
+}
+.order1{
+    width: 1000px;
+    height: 400px;
+    border: 1px solid #dadada;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.about_order1{
+    width: 1000px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #FAF9F9;
+}
+.paid1{
+    background-color: #979797;
+    width: 80px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+    border-radius: 4px;
+    opacity: 0.9;
+    position: absolute;
+}
+.paid1 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.about_order1 p1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-left: 60px;
+    position: absolute;
+}
+.about_order1 p2{
+    font-size: 15px;
+    color: #979797;
+    margin-top: 70px;
+    margin-left: 60px;
+    position: absolute;
+}
+.about_order1 p3{
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 650px;
+    position: absolute;
+    font-weight: bold;
+}
+.about_order1 p4{
+    font-size: 15px;
+    margin-left: 650px;
+    position: absolute;
+}
+.about_order1 p5{
+    font-size: 15px;
+    margin-left: 650px;
+    position: absolute;
+}
+.SberPortal1 img{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.SberPortal1 p{
+    margin-top: -140px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333F48;
+    position: absolute;
+}
+.SberPortal1 p1{
+    margin-top: -110px;
+    margin-left: 290px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333F48;
+}
+.SberPortal1 p2{
+    margin-top: -95px;
+    margin-left: 290px;
+    font-size: 20px;
+    color: #979797;
+}
+.details1 p{
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.details1 img{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+.details1 hr{
+    color: #979797;
+    opacity: 0.3;
+    width: 95%;
+}
+button{
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 550px;
+    background-color: white;
+    border: 1px solid #979797;
+    color: #979797;
+    margin-bottom: 80px;
+}
+.help p{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1450px;
+    font-size: 24px;
+    color: #333F48;
+    font-weight: bold;
+}
+.help p1{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 1450px;
+    font-size: 17px;
+    color: #333F48;
+    font-weight: 400;
+}
+.help p2{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 1450px;
+    font-size: 17px;
+    color: #333F48;
+    font-weight: bold;
+}
+.help p3{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 1450px;
+    font-size: 17px;
+    color: #979797;
+}
+.help button{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 1480px;
+    width: 170px;
+    border-radius: 15px;
+    height: 30px;
+    color: #006EFF;
+    border: 1px solid #006EFF;
+}
+.Contacts{
+    background-color: #F3F4F5;
+    width: 100%;
+    height: 230px;
+}
+.Contacts p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: absolute;
+    color: #979797;
+}
+.Contacts p1{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+    color: #979797;
+}
+.Contacts p2{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 1350px;
+    position: absolute;
+    font-weight: bold;
+    color: #979797;
+}
+.Contacts p3{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 1350px;
+    position: absolute;
+    color: #979797;
+}
+.Contacts p4{
+    position: absolute;
+    color: #979797;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.Contacts p5{
+    position: absolute;
+    color: #979797;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.Contacts p6{
+    position: absolute;
+    color: #979797;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
